@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/miama');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
 * {
-  
-    font-family: 'Inter', sans-serif;
-   
-  
+  font-family: "Inter", sans-serif;
 }
-.bgcolour{background:rgb(0, 0, 0);
+.bgcolour {
+  background: rgb(0, 0, 0);
   width: 80%;
   margin: auto;
   margin-top: 60px;
   box-shadow: #111111 100px;
-
 }
 .navleft {
   font-family: "Inter", sans-serif;
@@ -19,10 +16,8 @@
   font-weight: 700;
 }
 .navbar {
-    
   display: flex;
   justify-content: space-between;
-  
 }
 
 .navright {
@@ -31,7 +26,6 @@
 }
 .navright ul li {
   list-style-type: none;
- 
 }
 .navitem {
   display: flex;
@@ -44,7 +38,6 @@
   margin-right: 30px;
   color: white;
   justify-content: center;
-  
 }
 .homeicon {
   margin-right: 30px;
@@ -52,62 +45,55 @@
   color: white;
   border-radius: 10px;
   padding-left: 20px;
-  
 }
 /* body part in first section */
-.bodypart{
+.bodypart {
   display: flex;
   justify-content: space-between;
   background-image: url(images/first\ .png);
   background-repeat: no-repeat;
   background-position: right;
-
 }
 
-
-
-.bodyFontSection{
-margin-top: 96px;
-width: 520px;
-
+.bodyFontSection {
+  margin-top: 96px;
+  width: 520px;
 }
-.FirstFont{
- font-weight: 900;
+.FirstFont {
+  font-weight: 900;
   font-size: 78px;
   color: aliceblue;
 }
-.fontbox{
-  
+.fontbox {
 }
 
-.shapeSpan{
+.shapeSpan {
   font-family: "miama";
   font-weight: 400;
   font-size: 78px;
 }
 
-.paragraphPart{
+.paragraphPart {
   margin-top: 28px;
-  color: #FFFFFF;opacity: 50%;
- 
+  color: #ffffff;
+  opacity: 50%;
 }
 
 /* button  */
-.buttonFunction{
+.buttonFunction {
   margin-top: 28px;
 }
 
-
-.join-button{
+.join-button {
   width: 244px;
-height: 52px;
+  height: 52px;
   color: white;
-border-radius: 42px;
-background-color: rgb(230, 83, 60);
-margin-right: 18px;
+  border-radius: 42px;
+  background-color: rgb(230, 83, 60);
+  margin-right: 18px;
 }
 
-.app-button{
+.app-button {
   width: 224px;
   height: 54px;
   border-radius: 42px;
@@ -115,25 +101,24 @@ margin-right: 18px;
   background-color: black;
   border-color: white;
 }
-.side-button{
-color: #FFFFFF;
-height: 120px;;
-width: 200px;
-background-color: #303030;
-border-radius: 12px;
-display: flex;
-justify-content: center;
-align-items: center;
-
+.side-button {
+  color: #ffffff;
+  height: 120px;
+  width: 200px;
+  background-color: #303030;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.tutorial{
+.tutorial {
   margin: 8px;
 }
-.vedio{
-font-size: 16px;
-font-weight: 400;
+.vedio {
+  font-size: 16px;
+  font-weight: 400;
 }
-.threeHund{
+.threeHund {
   font-size: 24px;
   font-weight: 900;
 }
@@ -141,164 +126,161 @@ font-weight: 400;
 .icon {
   width: 40px;
   height: 50px;
-  background-color: #f04c3e; 
+  background-color: #f04c3e;
   border-radius: 90%;
   margin-right: 12px;
 }
 /* second button */
-.side-button2{
-
-color: #FFFFFF;
-height: 120px;;
-width: 200px;
-background-color:rgba(255, 255, 255, 0.1);
-border-radius: 12px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 157px;
-margin-left: 200px;
+.side-button2 {
+  color: #ffffff;
+  height: 120px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 157px;
+  margin-left: 200px;
 }
-.tutorial2{
+.tutorial2 {
   margin: 8px;
 }
-.three{
+.three {
   font-size: 24px;
- 
 }
-.vedio2{
+.vedio2 {
   font-size: 16px;
-font-weight: 400;
+  font-weight: 400;
 }
 
 /* second part */
-.full-habits{
+.full-habits {
   text-align: center;
   width: 50%;
- margin: auto;
-  color: #FFFFFF;
-  
-  
+  margin: auto;
+  color: #ffffff;
 }
-.habits{
- font-size: 30px;
- font-weight: 600;
+
+.habits {
+  font-size: 30px;
+  font-weight: 600;
 }
-.habits-p{
+.habits1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.habits-p {
   font-size: 14px;
   font-weight: 400;
   color: grey;
   margin-top: -20px;
 }
 /*1 image part */
-.gymGuide{
+.gymGuide {
   display: flex;
   justify-content: space-between;
-  gap: 40px ;
+  gap: 40px;
 }
 
-
-
-.picture-section{
+.picture-section {
   width: 231px;
   height: 270px;
 }
-.pic-1 img{
+.pic-1 img {
   border-radius: 50%;
   border: 2px solid #444;
   margin-left: 20px;
 }
 
 /*1 text part-Movemnet */
-.movePart{
-text-align: center;
-color: #FFFFFF;
+.movePart {
+  text-align: center;
+  color: #ffffff;
 }
-.movePart h2{
+.movePart h2 {
   font-weight: 600;
   font-size: 18px;
 }
-.movePart p{
+.movePart p {
   font-weight: 400;
   font-size: 14px;
   color: grey;
 }
 
-
 /*2 image part-2 */
-.picture-section2{
+.picture-section2 {
   width: 231px;
   height: 270px;
 }
-.pic-2 img{
+.pic-2 img {
   border-radius: 50%;
   border: 2px solid #444;
   margin-left: 20px;
 }
 
 /*2 text part-Time*/
-.time{
-text-align: center;
-color: #FFFFFF;
+.time {
+  text-align: center;
+  color: #ffffff;
 }
-.time h2{
+.time h2 {
   font-weight: 600;
   font-size: 18px;
 }
-.time p{
+.time p {
   font-weight: 400;
   font-size: 14px;
   color: grey;
 }
 
 /*3 image part-3 */
-.picture-section3{
+.picture-section3 {
   width: 231px;
   height: 270px;
 }
-.pic-3 img{
+.pic-3 img {
   border-radius: 50%;
   border: 2px solid #444;
   margin-left: 20px;
 }
 
 /*3 practice part-text*/
-.practice{
-text-align: center;
-color: #FFFFFF;
+.practice {
+  text-align: center;
+  color: #ffffff;
 }
-.practice h2{
+.practice h2 {
   font-weight: 600;
   font-size: 18px;
 }
-.practice p{
+.practice p {
   font-weight: 400;
   font-size: 14px;
   color: grey;
 }
 
-
 /*4 image part-4 */
-.picture-section4{
+.picture-section4 {
   width: 231px;
   height: 270px;
 }
-.pic-4 img{
+.pic-4 img {
   border-radius: 50%;
   border: 2px solid #444;
   margin-left: 20px;
 }
 
 /*4 text part-weight loss*/
-.weight{
-text-align: center;
-color: #FFFFFF;
+.weight {
+  text-align: center;
+  color: #ffffff;
 }
-.weight h2{
+.weight h2 {
   font-weight: 600;
   font-size: 18px;
 }
-.weight p{
+.weight p {
   font-weight: 400;
   font-size: 14px;
   color: grey;
@@ -307,50 +289,47 @@ color: #FFFFFF;
     third section
 */
 
-.thirdPart{
+.thirdPart {
   width: 80%;
   margin: auto;
   margin-top: 32px;
   height: 371px;
   background-color: #222222;
   border-radius: 20px;
-  display:  flex;
+  display: flex;
   align-items: center;
-  
 }
-.easilyFunction{
+.easilyFunction {
   margin: 54px;
 }
-.easilyFunction h2{
-
+.easilyFunction h2 {
   font-size: 48px;
   font-weight: 900;
   width: 440px;
   height: 110px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.easilyFunction p{
+.easilyFunction p {
   margin-top: 20px;
   height: 70px;
   width: 440px;
   color: grey;
 }
-.easilyFunction button{
-  background-color: #E6533C;
+.easilyFunction button {
+  background-color: #e6533c;
   width: 220px;
   height: 50px;
   border-radius: 42px;
   font-size: 18px;
-  font weight: 81px;
-  color: #FFFFFF;
+  font-weight: 81px;
+  color: #ffffff;
 }
 /* image  */
 .run {
   width: 360px;
   height: 310px;
-
 }
-.run img{
+.run img {
   max-width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -358,119 +337,217 @@ color: #FFFFFF;
 }
 
 /* fifth section */
-.full-meet{
+.full-meet {
   text-align: center;
   width: 50%;
- margin: auto;
-  color: #FFFFFF;
+  margin: auto;
+  color: #ffffff;
 }
-.meet{
+.meet {
   font-size: 30px;
   font-weight: 600;
 }
 
-.meet-p{
+.meet-p {
   font-size: 14px;
   font-weight: 400;
   color: grey;
   margin-top: -20px;
 }
+/* fourth part */
 
-
-                                              /* media query */
-
-@media screen and  (max-width:576px) {
-/* 2nd part */
-.full-habits{
-margin: 67px, 32px,0px,45px;
-  width: 900px;
-  color: #FFFFFF;
-}
-.habits{
-  font-size: 32px;
-
- }
- .habits-p{
-   font-size: 14px;
-   font-weight: 310;
-   color: grey;
-   margin-top: -20px;
- }
- .gymGuide{
-  margin-left: 300px;
-  display: flex;
- flex-direction: column;
-justify-content: center;
-  gap: 40px ;
- 
-}
-/* third part */
-.thirdPart{
-  width: 560px;
-  height: 531px;
-  margin: auto;
-  margin-top: 32px;
-  margin-left: 150px;
-  background-color: #222222;
-  border-radius: 20px;
-  display:  flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px ;
+.bmi-chart{
   
-}
-.easilyFunction{
-  margin:0px;
+  display: flex;
+  justify-content: space-between;
+background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
 }
 
-.easilyFunction h2{
-
-  font-size: 32px;
-  font-weight: 900;
-  width: 270px;
-  height: 70px;
-  color: #FFFFFF;
-}
-.easilyFunction p{
-  margin-top: 20px;
-  height: 70px;
-  width: 440px;
-  color: grey;
-}
-.easilyFunction button{
-  background-color: #E6533C;
+.bmi-chart table {
   width: 100%;
-  height: 50px;
-  border-radius: 42px;
-  font-size: 18px;
-  font weight: 81px;
-  color: #FFFFFF;
-}
-.run img{
-  max-width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  margin-left:0px;
-}
-/* fifth part */
-.full-meet{
-  text-align: center;
- width: 800px;
- height: 120px;
-  color: #FFFFFF;
-}
-.meet{
-  font-size: 30px;
-  font-weight: 600;
+  border-collapse: collapse;
 }
 
-.meet-p{
-  font-size: 14px;
-  font-weight: 900;
+.bmi-chart th, .bmi-chart td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+.bmi-h2 {
+  margin-bottom: 10px;
+}
+
+.bmi-p{
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+button {
+  padding: 10px;
+  background-color: #f05a28;
+  border-radius: 10px;
+  color: #fff;
+ width: 220px;
+  font-size: 16px;
+}
+.bmi-h2{
+  color: white;
+ }
+ .bmi-p{
   color: grey;
-  margin-top: -20px;
-  width:300px;
-  margin-left: 250px;
-}
+ }
+ .bmi-33{
+  color: white;
+ }
+ .trh2{
+  color: white;
+ }
 
+/* media query */
+
+@media screen and (max-width: 576px) {
+  /* 2nd part */
+  .full-habits {
+    margin: 67px, 32px, 0px, 45px;
+    width: 900px;
+    color: #ffffff;
+  }
+  .habits {
+    font-size: 32px;
+  }
+  .habits-p {
+    font-size: 14px;
+    font-weight: 310;
+    color: grey;
+    margin-top: -20px;
+  }
+  .gymGuide {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+  }
+  /* third part */
+  .thirdPart {
+    width: 560px;
+    height: 531px;
+    margin: auto;
+    margin-top: 32px;
+    margin-left: 150px;
+    background-color: #222222;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .easilyFunction {
+    margin: 0px;
+  }
+
+  .easilyFunction h2 {
+    font-size: 32px;
+    font-weight: 900;
+    width: 270px;
+    height: 70px;
+    color: #ffffff;
+  }
+  .easilyFunction p {
+    margin-top: 20px;
+    height: 70px;
+    width: 440px;
+    color: grey;
+  }
+  .easilyFunction button {
+    background-color: #e6533c;
+    width: 100%;
+    height: 50px;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 81px;
+    color: #ffffff;
+  }
+  .run img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 0px;
+  }
+ /* fourth part */
+  .bmi-calculator1{
+        flex-direction: column;
+    }
+    
+    .bmi-chart, .bmi-calculator {
+        margin: 10px 0;
+    }
+
+    .bmi-chart{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px;
+      width: 800px;
+      background-color: #333;
+      border-radius: 8px;
+      margin: 10px;
+    }
+    button {
+      padding: 10px;
+      background-color: #f05a28;
+      border-radius: 10px;
+      color: #fff;
+     width: 220px;
+      font-size: 16px;
+    }
+   .input-form{
+    display: flex;
+   }
+  /* fifth part */
+  .full-meet {
+    text-align: center;
+    width: 800px;
+    height: 120px;
+    color: #ffffff;
+  }
+  .meet {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .meet-p {
+    font-size: 14px;
+    font-weight: 900;
+    color: grey;
+    margin-top: -20px;
+    width: 300px;
+    margin-left: 250px;
+  }
+ 
 }
