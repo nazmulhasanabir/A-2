@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+* {
+  
+    font-family: 'Inter', sans-serif;
+   
+  
+}
+.bgcolour{background:rgb(0, 0, 0);
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  box-shadow: #111111 100px;
+
+}
+.navleft {
+  font-family: "Inter", sans-serif;
+  color: rgb(230, 83, 60);
+  font-weight: 700;
+}
+.navbar {
+    
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navright {
+  display: flex;
+  align-items: center;
+}
+.navright ul li {
+  list-style-type: none;
+ 
+}
+.navitem {
+  display: flex;
+  border: 1px black solid;
+  border-radius: 20px;
+  margin: 0px 10px;
+}
+.navlink {
+  text-decoration: none;
+  margin-right: 30px;
+  color: white;
+  justify-content: center;
+  
+}
+.homeicon {
+  margin-right: 30px;
+  background-color: rgb(230, 83, 60);
+  color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  
+}
+/* body part in first section */
+.bodypart{
+  display: flex;
+  justify-content: space-between;
+  background-image: url(images/first\ .png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+
+
+.bodyFontSection{
+margin-top: 96px;
+width: 520px;
+
+}
+.FirstFont{
+ font-weight: 900;
+  font-size: 78px;
+  color: aliceblue;
+}
+.fontbox{
+  
+}
+
+.shapeSpan{
+  font-family: "miama";
+  font-weight: 400;
+  font-size: 78px;
+}
+
+.paragraphPart{
+  margin-top: 28px;
+  color: #FFFFFF;opacity: 50%;
+ 
+}
+
+/* button  */
+.buttonFunction{
+  margin-top: 28px;
+}
+
+
+.join-button{
+  width: 244px;
+height: 52px;
+  color: white;
+border-radius: 42px;
+background-color: rgb(230, 83, 60);
+margin-right: 18px;
+}
+
+.app-button{
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+.side-button{
+color: #FFFFFF;
+height: 120px;;
+width: 200px;
+background-color: #303030;
+border-radius: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.tutorial{
+  margin: 8px;
+}
+.vedio{
+font-size: 16px;
+font-weight: 400;
+}
+.threeHund{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.icon {
+  width: 40px;
+  height: 50px;
+  background-color: #f04c3e; 
+  border-radius: 90%;
+  margin-right: 12px;
+}
+/* second button */
+.side-button2{
+
+color: #FFFFFF;
+height: 120px;;
+width: 200px;
+background-color:rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 157px;
+margin-left: 200px;
+}
+.tutorial2{
+  margin: 8px;
+}
+.three{
+  font-size: 24px;
+ 
+}
+.vedio2{
+  font-size: 16px;
+font-weight: 400;
+}
+
+/* second part */
+.full-habits{
+  text-align: center;
+  width: 50%;
+ margin: auto;
+  color: #FFFFFF;
+  
+  
+}
+.habits{
+ font-size: 30px;
+ font-weight: 600;
+}
+.habits-p{
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+  margin-top: -20px;
+}
+/*1 image part */
+.gymGuide{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px ;
+}
+
+
+
+.picture-section{
+  width: 231px;
+  height: 270px;
+}
+.pic-1 img{
+  border-radius: 50%;
+  border: 2px solid #444;
+  margin-left: 20px;
+}
+
+/*1 text part-Movemnet */
+.movePart{
+text-align: center;
+color: #FFFFFF;
+}
+.movePart h2{
+  font-weight: 600;
+  font-size: 18px;
+}
+.movePart p{
+  font-weight: 400;
+  font-size: 14px;
+  color: grey;
+}
+
+
+/*2 image part-2 */
+.picture-section2{
+  width: 231px;
+  height: 270px;
+}
+.pic-2 img{
+  border-radius: 50%;
+  border: 2px solid #444;
+  margin-left: 20px;
+}
+
+/*2 text part-Time*/
+.time{
+text-align: center;
+color: #FFFFFF;
+}
+.time h2{
+  font-weight: 600;
+  font-size: 18px;
+}
+.time p{
+  font-weight: 400;
+  font-size: 14px;
+  color: grey;
+}
+
+/*3 image part-3 */
+.picture-section3{
+  width: 231px;
+  height: 270px;
+}
+.pic-3 img{
+  border-radius: 50%;
+  border: 2px solid #444;
+  margin-left: 20px;
+}
+
+/*3 practice part-text*/
+.practice{
+text-align: center;
+color: #FFFFFF;
+}
+.practice h2{
+  font-weight: 600;
+  font-size: 18px;
+}
+.practice p{
+  font-weight: 400;
+  font-size: 14px;
+  color: grey;
+}
+
+
+/*4 image part-4 */
+.picture-section4{
+  width: 231px;
+  height: 270px;
+}
+.pic-4 img{
+  border-radius: 50%;
+  border: 2px solid #444;
+  margin-left: 20px;
+}
+
+/*4 text part-weight loss*/
+.weight{
+text-align: center;
+color: #FFFFFF;
+}
+.weight h2{
+  font-weight: 600;
+  font-size: 18px;
+}
+.weight p{
+  font-weight: 400;
+  font-size: 14px;
+  color: grey;
+}
+/* 
+    third section
+*/
+
+.thirdPart{
+  width: 80%;
+  margin: auto;
+  margin-top: 32px;
+  height: 371px;
+  background-color: #222222;
+  border-radius: 20px;
+  display:  flex;
+  align-items: center;
+  
+}
+.easilyFunction{
+  margin: 54px;
+}
+.easilyFunction h2{
+
+  font-size: 48px;
+  font-weight: 900;
+  width: 440px;
+  height: 110px;
+  color: #FFFFFF;
+}
+.easilyFunction p{
+  margin-top: 20px;
+  height: 70px;
+  width: 440px;
+  color: grey;
+}
+.easilyFunction button{
+  background-color: #E6533C;
+  width: 220px;
+  height: 50px;
+  border-radius: 42px;
+  font-size: 18px;
+  font weight: 81px;
+  color: #FFFFFF;
+}
+/* image  */
+.run {
+  width: 360px;
+  height: 310px;
+
+}
+.run img{
+  max-width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+/* fifth section */
+.full-meet{
+  text-align: center;
+  width: 50%;
+ margin: auto;
+  color: #FFFFFF;
+}
+.meet{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.meet-p{
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+  margin-top: -20px;
+}
+
+
+                                              /* media query */
+
+@media screen and  (max-width:576px) {
+/* 2nd part */
+.full-habits{
+margin: 67px, 32px,0px,45px;
+  width: 900px;
+  color: #FFFFFF;
+}
+.habits{
+  font-size: 32px;
+
+ }
+ .habits-p{
+   font-size: 14px;
+   font-weight: 310;
+   color: grey;
+   margin-top: -20px;
+ }
+ .gymGuide{
+  margin-left: 300px;
+  display: flex;
+ flex-direction: column;
+justify-content: center;
+  gap: 40px ;
+ 
+}
+/* third part */
+.thirdPart{
+  width: 560px;
+  height: 531px;
+  margin: auto;
+  margin-top: 32px;
+  margin-left: 150px;
+  background-color: #222222;
+  border-radius: 20px;
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px ;
+  
+}
+.easilyFunction{
+  margin:0px;
+}
+
+.easilyFunction h2{
+
+  font-size: 32px;
+  font-weight: 900;
+  width: 270px;
+  height: 70px;
+  color: #FFFFFF;
+}
+.easilyFunction p{
+  margin-top: 20px;
+  height: 70px;
+  width: 440px;
+  color: grey;
+}
+.easilyFunction button{
+  background-color: #E6533C;
+  width: 100%;
+  height: 50px;
+  border-radius: 42px;
+  font-size: 18px;
+  font weight: 81px;
+  color: #FFFFFF;
+}
+.run img{
+  max-width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin-left:0px;
+}
+/* fifth part */
+.full-meet{
+  text-align: center;
+ width: 800px;
+ height: 120px;
+  color: #FFFFFF;
+}
+.meet{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.meet-p{
+  font-size: 14px;
+  font-weight: 900;
+  color: grey;
+  margin-top: -20px;
+  width:300px;
+  margin-left: 250px;
+}
+
+}
