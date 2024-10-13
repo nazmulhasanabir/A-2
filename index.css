@@ -3,10 +3,26 @@
 * {
   font-family: "Inter", sans-serif;
 }
+body{
+  background: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.first-pic{
+  margin: 5px;
+}
+.position{
+  position: relative;
+}
 .bgcolour {
   background: rgb(0, 0, 0);
   width: 80%;
   margin: auto;
+  box-shadow: #111111 100px;
+}
+.bgcolour2 {
+  background: rgb(0, 0, 0);
   margin-top: 60px;
   box-shadow: #111111 100px;
 }
@@ -47,22 +63,22 @@
   padding-left: 20px;
 }
 /* body part in first section */
-.bodypart {
+/* .bodypart {
   display: flex;
   justify-content: space-between;
-  background-image: url(images/first\ .png);
   background-repeat: no-repeat;
   background-position: right;
-}
+} */
 
 .bodyFontSection {
-  margin-top: 96px;
-  width: 520px;
+  display: flex;
+  justify-content: space-between;
 }
 .FirstFont {
   font-weight: 900;
   font-size: 78px;
   color: aliceblue;
+  width: 520px;
 }
 .fontbox {
 }
@@ -77,6 +93,7 @@
   margin-top: 28px;
   color: #ffffff;
   opacity: 50%;
+  width: 500px;
 }
 
 /* button  */
@@ -106,10 +123,16 @@
   height: 120px;
   width: 200px;
   background-color: #303030;
+  opacity: 50%;
+  /* background: rgba(0, 0, 0, 0.5); */
+  backdrop-filter: blur(10px);
   border-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  bottom: 150px;
+  left: 700px;
 }
 .tutorial {
   margin: 8px;
@@ -140,11 +163,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 157px;
-  margin-left: 200px;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  bottom: 200px;
 }
 .tutorial2 {
   margin: 8px;
+  
 }
 .three {
   font-size: 24px;
@@ -336,39 +362,31 @@
   margin-left: 30px;
 }
 
-/* fifth section */
-.full-meet {
-  text-align: center;
-  width: 50%;
-  margin: auto;
-  color: #ffffff;
-}
-.meet {
-  font-size: 30px;
-  font-weight: 600;
-}
-
-.meet-p {
-  font-size: 14px;
-  font-weight: 400;
-  color: grey;
-  margin-top: -20px;
-}
 /* fourth part */
-
+.Font-bmi{
+  color: white;
+  width: 40%;
+  margin: auto;
+  margin-top: 90px;
+}
+.Font-bmi h2{
+  font-size: 50px;
+}
 .bmi-chart{
   
   display: flex;
   justify-content: space-between;
 background-color: #333;
-  padding: 20px;
+  padding: 40px;
   border-radius: 8px;
   margin: 10px;
+  margin-top: 30px;
 }
 
 .bmi-chart table {
   width: 100%;
   border-collapse: collapse;
+
 }
 
 .bmi-chart th, .bmi-chart td {
@@ -394,18 +412,55 @@ form {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
+ 
 }
-
-input[type="text"],
-input[type="number"],
-select {
-  flex: 1;
+.ageNumber{
   padding: 10px;
   border: none;
   border-radius: 5px;
   background-color: #444;
   color: #fff;
 }
+.height{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+.weights{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+.gender{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+ width: 200px;
+}
+
+.factor{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+  width: 400px;
+}
+
+.bmi-chart-1{
+  margin-right: 40px;
+}
+.bmi-chart-2{
+  margin-right: 30px;
+}
+
 
 button {
   padding: 10px;
@@ -427,10 +482,195 @@ button {
  .trh2{
   color: white;
  }
+ /* fifth section */
+.full-meet {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  color: #ffffff;
+}
+.meet {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.meet-p {
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+  margin-top: -20px;
+}
+.trainer-1{
+border-radius: 16px;
+width: 350px;
+height:280px;
+}
+.body-builder-grid{
+  border-radius: 20px;
+  padding: 20px;
+  background-color: grey;
+  gap: 20px ;
+  display: grid;
+  grid-template-columns: repeat(3,350px);
+  width: 73%;
+  margin-left: 180px;
+  
+}
+
+.trainer-font{
+  position: relative;
+  left: 20px;
+  bottom: 100px;
+  color: white;
+}
+.trainer-font p{
+  color: grey;
+}
+.trainnerDetails{
+  height: 300px;
+}
+/* extra part */
+.extra-part-font{
+  width: 80%;
+  margin: auto;
+color: white;
+}
+.extra-part-font h2{
+text-align: center;
+font-size: 50px;
+}
+.extra-part-font p{
+  color: grey;
+}
+.extra-p{
+  color: grey;
+  text-align: center;
+}
+.join-extra-button{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+gap: 20px;  
+}
+.join-extra-button button{
+  width: 350px;
+}
+/* footer */
+.fooot{
+  padding: 40px 80px;
+  color: white;
+  margin: auto;
+  background-color: grey;
+}
+.footer-head{
+  width: 40%;
+}
+.footer-head h2{
+  color: #f05a28;
+  font-size: 70px;
+  font-style: italic;
+
+}
+.footer-1{
+  display: flex;
+  justify-content: space-between;
+}
+.reserve{
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.reserve hr{
+  border: none;
+  border-top: 1px solid rgb(200, 200, 200) ;; 
+  width: 90%; 
+  margin: 10px auto;
+}
+.reserve p{
+  margin: 0;
+  color: white;
+}
 
 /* media query */
 
 @media screen and (max-width: 576px) {
+  .bgcolour {
+    background: rgb(0, 0, 0);
+    width: 50%;
+    margin: auto;
+    box-shadow: #111111 100px;
+  }
+  /* 1st part */
+  .FirstFont {
+    display: none;
+    font-weight: 900;
+    font-size: 78px;
+    color: aliceblue;
+    width: 520px;
+  }
+  .bodyFontSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .buttonFunction{
+    display: flex;
+  }
+  .paragraphPart {
+    margin-top: 128px;
+    color: #ffffff;
+    opacity: 50%;
+    width: 500px;
+  }
+  .first-pic{
+    margin-left: 300px;
+  }
+  .side-button {
+    color: #ffffff;
+    height: 120px;
+    width: 200px;
+    background-color: #303030;
+    opacity: 50%;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 350px;
+    left: 250px;
+  }
+  .side-button2 {
+    color: #ffffff;
+    height: 120px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    
+  }
+  .position{
+    position: relative;
+    margin: auto;
+    margin-left: 200px;
+    margin-bottom: 60px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+  }
+  .navright {
+    display: none;
+    
+  }
   /* 2nd part */
   .full-habits {
     margin: 67px, 32px, 0px, 45px;
@@ -447,7 +687,7 @@ button {
     margin-top: -20px;
   }
   .gymGuide {
-    margin-left: 300px;
+    margin-left: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -459,7 +699,7 @@ button {
     height: 531px;
     margin: auto;
     margin-top: 32px;
-    margin-left: 150px;
+    margin-left: 180px;
     background-color: #222222;
     border-radius: 20px;
     display: flex;
@@ -507,16 +747,21 @@ button {
     .bmi-chart, .bmi-calculator {
         margin: 10px 0;
     }
-
+    .Font-bmi{
+      color: white;
+      width: 100%;
+      margin: auto;
+      margin-top: 90px;
+    }
     .bmi-chart{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       padding: 20px;
-      width: 800px;
+      width: 1250px;
       background-color: #333;
       border-radius: 8px;
-      margin: 10px;
+      margin-top: 30px;
     }
     button {
       padding: 10px;
@@ -535,6 +780,8 @@ button {
     width: 800px;
     height: 120px;
     color: #ffffff;
+    margin-left: 100px;
+    
   }
   .meet {
     font-size: 30px;
@@ -546,8 +793,116 @@ button {
     font-weight: 900;
     color: grey;
     margin-top: -20px;
-    width: 300px;
-    margin-left: 250px;
+    width: 500px;
+    margin: auto;
   }
- 
+  .body-builder-grid{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: grey;
+    gap: 20px ;
+    display: grid;
+    grid-template-columns: repeat(1,350px);
+    justify-content: center;
+    width: 100%;
+    margin-left: 230px; 
+  }
+  /* extra section */
+  .extra-section{
+    width: auto;
+    margin: auto;
+    width: 900px;
+    margin-top: 100px;
+  }
+  .extra-part-font{
+   margin-left: 150px;
+  }
+  .extra-part-font h2{
+  text-align: center;
+  font-size: 32px;
+  margin-left: 00px;
+  }
+  .extra-part-font p{
+    color: grey;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  .extra-p{
+    color: grey;
+    text-align: center;
+    margin-left: 70px;
+  }
+  .join-extra-button{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;  
+  margin-left: 130px;
+  }
+  .join-extra-button button{
+    width: 350px;
+  }
+  /* footer */
+  .fooot{
+    padding: 40px 80px;
+    color: white;
+    margin: auto;
+    background-color: grey;
+    width: 1150px;
+  }
+  .footer-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer-head{
+    width: 100%;
+  }
+  .footer-head p{
+    color: rgb(200, 200, 200);
+    
+  }
+  .footer-head h2{
+    color: #f05a28;
+    font-size: 170px;
+    font-style: italic;
+    margin-top: 00px;
+    margin-bottom: 00px;
+  }
+  .startet h2{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .startet p{
+    color:rgb(200, 200, 200) ;
+    font-size: 23px;
+  }
+  .startet1 h2{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .startet1 p{
+    color: rgb(200, 200, 200);
+    font-size: 23px;
+  }
+  .reserve{
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  .reserve hr{
+    border: none;
+    border-top: 1px solid rgb(200, 200, 200) ;; 
+    width: 90%; 
+    margin: 10px auto;
+  }
+  .reserve p{
+    margin: 0;
+    color: white;
+  }
 }
